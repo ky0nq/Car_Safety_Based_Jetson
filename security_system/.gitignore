@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+models/*.onnx
+models/*.pth
+database/*.sqlite3
+security_events/*
+!models/.gitkeep
+!database/.gitkeep
+!security_events/.gitkeep
